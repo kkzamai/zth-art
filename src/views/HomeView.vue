@@ -1,24 +1,24 @@
 <template>
   <BaseLayout>
     <template v-slot:header>
-      <Header />
+      <NavBar />
     </template>
-
-    <p>This content will be injected into the default slot.</p>
-
+    <template v-slot:breadcrumbs>
+      <p>Breadcrumbs</p>
+    </template>
     <template v-slot:content>
-      <Content />
+      <mainContent />
     </template>
 
     <template v-slot:footer>
-      <Footer />
+      <FooterContent />
     </template>
   </BaseLayout>
 </template>
 
 <script setup lang="ts">
 import BaseLayout from './BaseLayout.vue'
-import Header from '@/components/Header.vue'
-import Content from '@/components/Content.vue'
-import Footer from '@/components/Footer.vue'
+import NavBar from '@/components/NavBar.vue'
+import MainContent from '@/components/MainContent.vue'
+import FooterContent from '@/components/FooterContent.vue'
 </script>

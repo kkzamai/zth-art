@@ -55,19 +55,21 @@
 
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
-        <a class="navbar-item"> <RouterLink to="/">Home</RouterLink> </a>
+        <a class="navbar-item">
+          <RouterLink to="/">{{ $t('header.home') }}</RouterLink>
+        </a>
 
-        <a class="navbar-item"> Artworks </a>
+        <a class="navbar-item"> {{ $t('header.artworks') }} </a>
 
         <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link"> More </a>
+          <a class="navbar-link"> {{ $t('header.more') }} </a>
 
           <div class="navbar-dropdown">
-            <a class="navbar-item"> About </a>
-            <a class="navbar-item is-selected"> Artists </a>
-            <a class="navbar-item"> Contact </a>
+            <a class="navbar-item"> {{ $t('header.about') }} </a>
+            <a class="navbar-item is-selected"> {{ $t('header.artists') }} </a>
+            <a class="navbar-item"> {{ $t('header.contact') }} </a>
             <hr class="navbar-divider" />
-            <a class="navbar-item"> Printing </a>
+            <a class="navbar-item"> {{ $t('header.printing') }} </a>
           </div>
         </div>
       </div>
@@ -76,9 +78,9 @@
         <div class="navbar-item">
           <div class="buttons">
             <a class="button is-primary">
-              <strong>Sign up</strong>
+              <strong>{{ $t('header.signup') }}</strong>
             </a>
-            <a class="button is-light"> Log in </a>
+            <a class="button is-light">{{ $t('header.login') }}</a>
           </div>
         </div>
       </div>

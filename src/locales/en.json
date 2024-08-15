@@ -1,0 +1,16 @@
+{
+	"header": {
+		"home": "Home",
+		"artworks": "Artworks",
+		"more": "More",
+		"artists": "Artists",
+		"about": "About",
+		"contact": "Contact",
+		"printing": "Printing",
+		"signup": "I want to print",
+		"login": "Log in"
+	},
+	"general": {
+		"likes": "No likes | 1 like | {count} likes"
+	}
+}

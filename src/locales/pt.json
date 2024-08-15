@@ -1,0 +1,16 @@
+{
+	"header": {
+		"home": "Início",
+		"artworks": "Artes",
+		"more": "Mais",
+		"artists": "Artistas",
+		"about": "Sobre",
+		"contact": "Contato",
+		"printing": "Impressão",
+		"signup": "Quero imprimir",
+		"login": "Logar"
+	},
+	"general": {
+		"likes": "Nenhuma curtida | 1 curtida | {count} curtidas"
+	}
+}
