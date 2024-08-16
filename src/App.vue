@@ -1,13 +1,8 @@
-<script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
-import Header from './components/NavBar.vue'
-</script>
-
 <template>
-  <KeepAlive>
-    <RouterView />
-  </KeepAlive>
+  <RouterView />
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { RouterView } from 'vue-router'
+</script>
 <style scoped></style>

@@ -16,7 +16,7 @@
           <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
           <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
           <g id="SVGRepo_iconCarrier">
-            <title>1199</title>
+            <title>Header</title>
             <defs></defs>
             <g stroke-width="0.00017" fill="none" fill-rule="evenodd">
               <g fill="#434343">
@@ -55,11 +55,8 @@
 
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
-        <a class="navbar-item">
-          <RouterLink to="/">{{ $t('header.home') }}</RouterLink>
-        </a>
-
-        <a class="navbar-item"> {{ $t('header.artworks') }} </a>
+        <a class="navbar-item" href="/">{{ $t('header.home') }}</a>
+        <a class="navbar-item" href="/artworks"> {{ $t('header.artworks') }}</a>
 
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link"> {{ $t('header.more') }} </a>
