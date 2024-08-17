@@ -25,6 +25,10 @@ export default {
 			day: 'numeric',
 			weekday: 'long'
 		},
+		full: {
+			dateStyle: 'full',
+			timeStyle: 'full',
+		},
 	},
 	pt: {
 		shortformat: {
@@ -52,6 +56,10 @@ export default {
 			month: 'long',
 			day: 'numeric',
 			weekday: 'long'
+		},
+		full: {
+			dateStyle: 'full',
+			timeStyle: 'full',
 		},
 	}
 }

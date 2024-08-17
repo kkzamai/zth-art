@@ -12,5 +12,9 @@
 	},
 	"general": {
 		"likes": "No likes | 1 like | {count} likes"
+	},
+	"artworks": {
+		"artInfo": "Artwork: {title} / Mídia: {media}",
+		"dimensions": "{width} (W) x {height} (H)"
 	}
 }

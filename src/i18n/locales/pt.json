@@ -12,5 +12,9 @@
 	},
 	"general": {
 		"likes": "Nenhuma curtida | 1 curtida | {count} curtidas"
+	},
+	"artworks": {
+		"artInfo": "Artwork: {title} / Mídia: {media}",
+		"dimensions": "{width} (L) x {height} (A)"
 	}
 }

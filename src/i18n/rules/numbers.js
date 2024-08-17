@@ -13,7 +13,12 @@ export default {
 		percent: {
 			style: 'percent',
 			useGrouping: false,
-		}
+		},
+		coords: {
+			style: 'decimal',
+			minimumSignificantDigits: 6,
+			maximumSignificantDigits: 6,
+		},
 	},
 	pt: {
 		currency: {
@@ -31,6 +36,11 @@ export default {
 			minimumFractionDigits: 2,
 			maximumFractionDigits: 2,
 			useGrouping: false,
-		}
+		},
+		coords: {
+			style: 'decimal',
+			minimumSignificantDigits: 6,
+			maximumSignificantDigits: 6,
+		},
 	}
 }
