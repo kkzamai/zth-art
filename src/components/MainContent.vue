@@ -4,7 +4,11 @@
       <div class="">
         <p class="title">Title hero</p>
         <p class="subtitle">Subtitle</p>
-        <p class="subtitle">{{ $tc('general.likes', general_likes, { count: general_likes }) }}</p>
+        <p class="subtitle">{{ $t('general.likes', general_likes, { count: general_likes }) }}</p>
+        <p class="subtitle">
+          <span class="text-details">currency with Name:</span>
+          {{ $n(7854, 'currency', { currencyDisplay: 'name' }) }}
+        </p>
       </div>
     </div>
   </section>
@@ -12,5 +16,6 @@
 
 <script setup>
 import { ref } from 'vue'
+
 const general_likes = ref(100)
 </script>

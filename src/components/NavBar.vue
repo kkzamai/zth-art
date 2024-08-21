@@ -72,6 +72,7 @@
       </div>
 
       <div class="navbar-end">
+        <div class="navbar-item"><LanguageSwitcher /></div>
         <div class="navbar-item">
           <div class="buttons">
             <a class="button is-primary">
@@ -84,3 +85,6 @@
     </div>
   </nav>
 </template>
+<script setup>
+import LanguageSwitcher from './LanguageSwitcher.vue'
+</script>
