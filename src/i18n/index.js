@@ -5,6 +5,8 @@ import numberFormats from "./rules/numbers.js"
 import datetimeFormats from "./rules/datetime.js"
 import { portuguesePluralRules } from './rules/plurals'
 
+//legacy: false  -> set to false enables the Composition API
+
 export default createI18n({
 	legacy: false,
 	locale: "en",
