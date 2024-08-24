@@ -44,9 +44,7 @@ npm run test:unit
 npm run lint
 ```
 
-### Free http services
-
-## Photos:
+### Free http services for get images
 
 - Art Institute of Chicago - https://api.artic.edu/docs/#quick-start
 - https://picsum.photos/
