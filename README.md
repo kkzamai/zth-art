@@ -43,3 +43,11 @@ npm run test:unit
 ```sh
 npm run lint
 ```
+
+### Free http services
+
+## Photos:
+
+- Art Institute of Chicago - https://api.artic.edu/docs/#quick-start
+- https://picsum.photos/
+- https://coffee.alexflipnote.dev/
