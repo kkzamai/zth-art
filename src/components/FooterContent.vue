@@ -5,7 +5,7 @@
       <!-- Column 1 -->
       <div class="column">
         <!-- Heading is left aligned, medium weight -->
-        <h4 class="bd-footer-title has-text-weight-medium has-text-left">ZTHarpi</h4>
+        <h4 class="bd-footer-title has-text-weight-medium has-text-left">Company Name</h4>
 
         <!-- footer content -->
         <p class="bd-footer-link has-text-left">
@@ -47,7 +47,7 @@
         <p class="bd-footer-link">
           <a href="https://">
             <span class="icon-text">
-              <span>Email</span>
+              <span><fa-icon icon="email" />Email</span>
             </span>
           </a>
           <br />
@@ -63,6 +63,7 @@
             </span>
           </a>
         </p>
+        <p><fa-icon :icon="['fab', 'fa-linkedin']" /> <fa-icon :icon="['fab', 'fa-facebook']" /></p>
       </div>
     </div>
     <!-- Copyright symbol of company -->

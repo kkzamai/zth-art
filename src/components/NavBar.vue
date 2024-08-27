@@ -36,7 +36,7 @@
             </g>
           </g>
         </svg>
-        <b>ZTHarpi</b>
+        <b>LOGO</b>
       </a>
 
       <a
