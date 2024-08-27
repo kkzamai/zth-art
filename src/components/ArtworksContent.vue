@@ -18,6 +18,7 @@
             {{ artDimensions }}
           </p>
           <p>
+            <fa-icon icon="fa-regular fa-hand-point-up" class="pr-2" size="lg" />
             <fa-icon icon="fa-solid fa-user" class="pr-1" size="xs" />
             <fa-icon icon="fa-solid fa-search" class="pr-1" size="lg" />
             <fa-icon icon="fa-solid fa-heart" class="pr-1" size="6x" beat />
@@ -114,7 +115,6 @@
           />
 
           <h1>Layers</h1>
-
           <font-awesome-layers class="fa-4x">
             <fa-icon icon="circle" />
             <fa-icon icon="check" transform="shrink-6" style="color: white" />
