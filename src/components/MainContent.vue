@@ -10,12 +10,14 @@
           {{ $n(7854, 'currency', { currencyDisplay: 'name' }) }}
         </p>
       </div>
+      <div><charts-content /></div>
     </div>
   </section>
 </template>
 
 <script setup>
 import { ref } from 'vue'
+import ChartsContent from './ChartsContent.vue'
 
 const general_likes = ref(100)
 </script>

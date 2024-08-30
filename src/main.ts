@@ -8,6 +8,7 @@ import App from './App.vue'
 import router from './router'
 import i18n from './i18n'
 import { FontAwesomeIcon, FontAwesomeLayers, FontAwesomeLayersText } from './icons/fontawesome'
+import HighchartsVue from 'highcharts-vue'
 
 const app = createApp(App)
 app.component('fa-icon', FontAwesomeIcon)
@@ -16,5 +17,6 @@ app.component('font-awesome-layers-text', FontAwesomeLayersText)
 app.use(createPinia())
 app.use(router)
 app.use(i18n)
+app.use(HighchartsVue)
 
 app.mount('#app')

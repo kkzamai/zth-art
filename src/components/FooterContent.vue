@@ -47,7 +47,7 @@
         <p class="bd-footer-link">
           <a href="https://">
             <span class="icon-text">
-              <span><fa-icon icon="email" />Email</span>
+              <span>Email</span>
             </span>
           </a>
           <br />
