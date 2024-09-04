@@ -11,5 +11,4 @@
 <script setup>
 import BarChart from './charts/BarChart.vue'
 import GaugeChart from './charts/GaugeChart.vue'
-import HeatTreeMapChart from './charts/HeatTreeMapChart.vue'
 </script>
