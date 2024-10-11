@@ -1,6 +1,7 @@
 # zth-art
 
 This template should help get you started developing with Vue 3 in Vite.
+Technologies: Vue Router, Pinia, I18n for internationalization, Fontawesome for icons, and Bulma for CSS styling.
 
 ## Recommended IDE Setup
 
