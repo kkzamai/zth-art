@@ -1,7 +1,7 @@
 # zth-art
 
 This template should help get you started developing with Vue 3 in Vite.
-- Technologies: [Vue Router](https://router.vuejs.org/), [Pinia](https://pinia.vuejs.org/), I18n for internationalization, Axios, Fontawesome for icons, Bulma for CSS styling, and Highcharts.
+- Technologies: [Vue Router](https://router.vuejs.org/), [Pinia](https://pinia.vuejs.org/), [VueI18n](https://vue-i18n.intlify.dev/) for internationalization, [Axios](https://www.npmjs.com/package/axios), [Fontawesome](https://docs.fontawesome.com/web/use-with/vue) for icons, [Bulma](https://bulma.io/) for CSS styling, and [Highcharts](https://www.highcharts.com/).
 
 ## Recommended IDE Setup
 
